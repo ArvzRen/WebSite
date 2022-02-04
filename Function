@@ -1,0 +1,46 @@
+HTML 
+<audio id="audio" src="https://mahdihat791.github.io/v2/test.mp3">
+</audio>
+
+
+
+JAVASCRIPT
+
+var i = 0;
+function nextslide() {  document.getElementById("reasontext").innerHTML = rasones[i];
+  document.getElementById("album").src = images[i];
+  i++;
+                      document.getElementById("audio").play();
+ 
+}
+
+CSS
+
+/*Estilo para cuerpo*/
+body{
+  text-align:center;
+}  
+
+#firstp{
+  word-spacing: 10px;
+  font-variant: small-caps;
+  text-align: center;
+  font-size: 80px;
+}
+
+#reasontext{
+  font-size:50px;
+}
+
+
+#album
+{
+  border-style:solid;
+  border-color:#689F38
+  border: 1px 
+  border-radius: 80px;
+  padding: 5px;
+  width: 450px;
+}
+
+
